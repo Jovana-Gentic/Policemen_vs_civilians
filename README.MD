@@ -7,20 +7,20 @@
 
 <div class="row" align="center">
   <div class="column">
-    <img src="../data/train/policemen/lepsa-strana-policije-82021900-187244192676197-4020733923033635611-n.jpg">
-    <img src="../data/train/civilians/pexels-lê-minh-thuận-12623181.jpg">
+    <img src="./data/train/policemen/lepsa-strana-policije-82021900-187244192676197-4020733923033635611-n.jpg">
+    <img src="./data/train/civilians/pexels-lê-minh-thuận-12623181.jpg">
   </div>
   <div class="column">
-    <img src="../data/train/policemen/03DB208D-C966-44A1-9696-23C686161437-1024x768.jpeg">
-    <img src="../data/train/civilians/shirish-suwal-bL6qk2H_o58-unsplash.jpg">
+    <img src="./data/train/policemen/03DB208D-C966-44A1-9696-23C686161437-1024x768.jpeg">
+    <img src="./data/train/civilians/shirish-suwal-bL6qk2H_o58-unsplash.jpg">
   </div>
   <div class="column">
-    <img src="../data/train/policemen/361609031_811473447205206_4295824229945086774_n.jpg">
-    <img src="../data/train/civilians/pexels-mart-production-8436872.jpg">
+    <img src="./data/train/policemen/361609031_811473447205206_4295824229945086774_n.jpg">
+    <img src="./data/train/civilians/pexels-mart-production-8436872.jpg">
   </div>
   <div class="column">
-    <img src="../data/train/policemen/lepsa-strana-policije-82021900-187244192676197-4020733923033635611-n.jpg">
-    <img src="../data/train/civilians/2368171_1201-foto02-news1-ana-paunkovic_ls.jpg">
+    <img src="./data/train/policemen/lepsa-strana-policije-82021900-187244192676197-4020733923033635611-n.jpg">
+    <img src="./data/train/civilians/2368171_1201-foto02-news1-ana-paunkovic_ls.jpg">
   </div>
 </div>
 
@@ -40,14 +40,14 @@ tensorboard --logdir tb_logs
 
 In your browser, go to `localhost:6006` to see the tensorboard UI.
 
-<div align="center"><img src="../images/tensorboard.png"></div>
+<div align="center"><img src="./images/tensorboard.png"></div>
 
 # Model Evaluation
 To evaluate the performance of the model on the validation data, start by changing the model path to the desired model to evaluate in line 9 of `code/evaluate.py`.
 
 Then, execute `code/evaluate.py`. The code will plot the model probabilities on the validation data. Based on that figure, decide on a threshold to use for Accuracy, Precision and Recall metrics.
 
-<div align="center"><img src="modelpredictions.png"></div>
+<div align="center"><img src="./images/modelpredictions.png"></div>
 
 # Testing the model on new images
 The model can be used on completely new images (even user provided).
@@ -60,5 +60,5 @@ To start, change the model path to the desired model in line 9 of `code/inferenc
 
 Positives are policemen (label = 1) and negatives are civilians (label = 0).
 
-<div align="center"><img src="../images/test1.png"></div>
-<div align="center"><img src="../images/test2.png"></div>
+<div align="center"><img src="./images/test1.png"></div>
+<div align="center"><img src="./images/test2.png"></div>
