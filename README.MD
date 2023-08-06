@@ -3,7 +3,7 @@
 <br>
 <br>
 
-"Policemen vs Civilians" is an image classification model. We Convolutional Neural Networks (CNN) to learn a binary classification on a small dataset (<400 samples) of both Serbian policemen and civilians. This repo is written in Tensorflow.
+"Policemen vs Civilians" is an image classification model. We used Convolutional Neural Networks (CNN) to learn a binary classifier on a small dataset (<400 samples) of both Serbian policemen and civilians. This repo is written in Tensorflow.
 
 <div class="row" align="center">
   <div class="column">
