@@ -7,20 +7,20 @@
 
 <div class="row" align="center">
   <div class="column">
-    <img src="./data/train/policemen/lepsa-strana-policije-82021900-187244192676197-4020733923033635611-n.jpg">
-    <img src="./data/train/civilians/pexels-lê-minh-thuận-12623181.jpg">
+    <img width="300" src="./data/train/policemen/lepsa-strana-policije-82021900-187244192676197-4020733923033635611-n.png">
+    <img width="300" src="./data/train/civilians/pexels-lê-minh-thuận-12623181.jpg">
   </div>
   <div class="column">
-    <img src="./data/train/policemen/03DB208D-C966-44A1-9696-23C686161437-1024x768.jpeg">
-    <img src="./data/train/civilians/shirish-suwal-bL6qk2H_o58-unsplash.jpg">
+    <img width="300" src="./data/train/policemen/03DB208D-C966-44A1-9696-23C686161437-1024x768.jpeg">
+    <img width="300" src="./data/train/civilians/shirish-suwal-bL6qk2H_o58-unsplash.jpg">
   </div>
   <div class="column">
-    <img src="./data/train/policemen/361609031_811473447205206_4295824229945086774_n.jpg">
-    <img src="./data/train/civilians/pexels-mart-production-8436872.jpg">
+    <img width="300" src="./data/train/policemen/361609031_811473447205206_4295824229945086774_n.jpg">
+    <img width="300" src="./data/train/civilians/pexels-mart-production-8436872.jpg">
   </div>
   <div class="column">
-    <img src="./data/train/policemen/lepsa-strana-policije-82021900-187244192676197-4020733923033635611-n.jpg">
-    <img src="./data/train/civilians/2368171_1201-foto02-news1-ana-paunkovic_ls.jpg">
+    <img width="300" src="./data/train/policemen/13667950265d820444af12e397550527_v4_big1 - Copy.png">
+    <img width="300" src="./data/train/civilians/2368171_1201-foto02-news1-ana-paunkovic_ls.jpg">
   </div>
 </div>
 
@@ -40,7 +40,7 @@ tensorboard --logdir tb_logs
 
 In your browser, go to `localhost:6006` to see the tensorboard UI.
 
-<div align="center"><img src="./images/tensorboard.png"></div>
+<div align="center"><img src="./images/tensorboard.PNG"></div>
 
 # Model Evaluation
 To evaluate the performance of the model on the validation data, start by changing the model path to the desired model to evaluate in line 9 of `code/evaluate.py`.
